@@ -1,0 +1,1584 @@
+Ag
+Font 
+Shrikhand
+Weight 
+400
+Style 
+normal
+Size 
+14px
+Line Height 
+20.41px
+Ag
+Font 
+Righteous
+Weight 
+400
+Style 
+normal
+Size 
+14px
+Line Height 
+17.38px
+13 more
+000000
+F98383
+8D0909
+FF4545
+FF0000
+30%
+// Rectangle 4
+
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1159, height: 708)
+
+view.backgroundColor = .white
+
+
+var shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+var shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.975, green: 0.512, blue: 0.512, alpha: 1).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+
+
+
+// Rectangle 9
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1159, height: 708)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.975, green: 0.512, blue: 0.512, alpha: 1).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+
+
+
+// Rectangle 7
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1170, height: 1192)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.975, green: 0.512, blue: 0.512, alpha: 1).cgColor
+
+
+
+
+// Home
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 105, height: 47)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 36)
+
+
+// Line height: 42 pt
+
+
+view.text = "Home"
+
+
+
+
+// About
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 105, height: 47)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 36)
+
+
+// Line height: 42 pt
+
+
+view.text = "About"
+
+
+
+
+// Contact
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 130, height: 45)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 36)
+
+
+// Line height: 42 pt
+
+
+view.text = "Contact"
+
+
+
+
+// Cookbook Gallery
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 290, height: 47)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 36)
+
+
+// Line height: 42 pt
+
+
+view.text = "Cookbook Gallery"
+
+
+
+
+// image
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 370, height: 282.76)
+
+view.backgroundColor = .white
+
+
+let image0 = UIImage(named: "image.png")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1.07, b: 0, c: 0, d: 1, tx: -0.03, ty: 0))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+
+
+
+// Kaycee’s Filipino Cookbook
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 551, height: 58)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+view.textColor = UIColor(red: 0.554, green: 0.035, blue: 0.035, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 36)
+
+
+// Line height: 52 pt
+
+
+view.textAlignment = .center
+
+view.text = "Kaycee’s Filipino Cookbook"
+
+
+
+
+// Home
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 36, height: 14)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 12)
+
+
+// Line height: 14 pt
+
+// (identical to box height)
+
+
+view.text = "Home"
+
+
+
+
+// About
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 34, height: 14)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 12)
+
+
+// Line height: 14 pt
+
+// (identical to box height)
+
+
+view.text = "About"
+
+
+
+
+// Gallery
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 44, height: 14)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 12)
+
+
+// Line height: 14 pt
+
+// (identical to box height)
+
+
+view.text = "Gallery"
+
+
+
+
+// Contacts
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 49, height: 14)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 12)
+
+
+// Line height: 14 pt
+
+// (identical to box height)
+
+
+view.text = "Contacts"
+
+
+
+
+// “Real cooking is more about following your heart than following recipes.” -Unknown
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 515, height: 63)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "RobotoCondensed-Regular", size: 18)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 21 pt
+
+
+view.textAlignment = .center
+
+view.text = "
+\n“Real cooking is more about following your heart than following recipes.”\n-Unknown"
+
+
+
+
+// image 1
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 370, height: 282)
+
+view.backgroundColor = .white
+
+
+let image0 = UIImage(named: "image.png")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1.35, b: 0, c: 0, d: 1, tx: -0.18, ty: 0))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+
+
+
+// image 2
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 580, height: 285)
+
+view.backgroundColor = .white
+
+
+let image0 = UIImage(named: "image.png")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1, b: 0, c: 0, d: 1.14, tx: 0, ty: -0.07))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+
+
+
+// 8D0909 (1) 1
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 244, height: 238)
+
+view.backgroundColor = .white
+
+
+view.layer.compositingFilter = "multiplyBlendMode"
+
+let image0 = UIImage(named: "8D0909 (1).png")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1, b: 0, c: 0, d: 1.03, tx: 0, ty: -0.01))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+view.layer.cornerRadius = 122
+
+
+
+
+// shutterstock_511072528-by-kim-david 1
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 349, height: 307.35)
+
+view.backgroundColor = .white
+
+
+let image0 = UIImage(named: "shutterstock_511072528-by-kim-david.jpg")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1.32, b: 0, c: 0, d: 1, tx: -0.16, ty: 0))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+
+
+
+// shutterstock_516831739-by-bonchan-1 1
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 353.4, height: 307.35)
+
+view.backgroundColor = .white
+
+
+let image0 = UIImage(named: "shutterstock_516831739-by-bonchan-1.jpg")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1.3, b: 0, c: 0, d: 1, tx: -0.15, ty: 0))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+
+
+
+// 2993990161_4e0afa25f2_o 1
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 409.33, height: 307)
+
+view.backgroundColor = .white
+
+
+let image0 = UIImage(named: "2993990161_4e0afa25f2_o.jpg")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+
+
+
+// Bulalo The perfect company for a cool, rainy day in the Philippines is a nice hot bowl of bulalo. This tasty soup is made by slow-cooking beef shanks and bone marrow (still in the bone) in some water with fish sauce, onions, and peppercorn, and later adding in some vegetables. Especially known for this dish is the province of Batangas in the country’s Southern Luzon region.
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 272, height: 231)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Righteous-Regular", size: 12)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 45 pt
+
+
+view.text = "Bulalo
+\n\nThe perfect company for a cool, rainy day in the Philippines is a nice hot bowl of bulalo. This tasty soup is made by slow-cooking beef shanks and bone marrow (still in the bone) in some water with fish sauce, onions, and peppercorn, and later adding in some vegetables. Especially known for this dish is the province of Batangas in the country’s Southern Luzon region.\n\n"
+
+
+
+
+// Sisig Served sizzling on a hot stone plate, sisig is a favorite pulutan (beer chow) among Filipinos. The meat is primarily chopped up parts of the pigs’ face — in the Philippines, no cut of the animal goes to waste. Some recipes use either mayonnaise or raw egg (to be mixed in while hot) to give it a creamier texture but the classic way is to incorporate pig’s brain into the dish.
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 272, height: 231)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Righteous-Regular", size: 14)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 45 pt
+
+
+view.text = "Sisig
+\n\nServed sizzling on a hot stone plate, sisig is a favorite pulutan (beer chow) among Filipinos. The meat is primarily chopped up parts of the pigs’ face — in the Philippines, no cut of the animal goes to waste. Some recipes use either mayonnaise or raw egg (to be mixed in while hot) to give it a creamier texture but the classic way is to incorporate pig’s brain into the dish."
+
+
+
+
+// Bistek Tagalog Bistek Tagalog or the Filipino beef steak is a delicious blend of salty, sour, and sweet flavours. Thinly sliced beef is marinated in a mixture of mainly soy sauce and kalamansi, fried, and then topped with caramelised onions. The onions are just sweet enough to cut into and balance the strong salty and acidic tastes infused into the meat.
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 272, height: 231)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Righteous-Regular", size: 14)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 45 pt
+
+
+view.text = "Bistek Tagalog
+\n\nBistek Tagalog or the Filipino beef steak is a delicious blend of salty, sour, and sweet flavours. Thinly sliced beef is marinated in a mixture of mainly soy sauce and kalamansi, fried, and then topped with caramelised onions. The onions are just sweet enough to cut into and balance the strong salty and acidic tastes infused into the meat."
+
+
+
+
+// Recipes
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 174, height: 46)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Righteous-Regular", size: 36)
+
+
+// Line height: 45 pt
+
+
+view.textAlignment = .center
+
+view.text = "Recipes"
+
+
+
+
+// Rectangle 8
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1159, height: 708)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.975, green: 0.512, blue: 0.512, alpha: 1).cgColor
+
+
+
+
+// Hi! We're Team Kaycee’s Filipino Cookbook. Kick back, stay a while, won't you? When you visit our corner of the internet, we want you to feel comfortable. Like did we just become best friends?! kind of comfortable. We're not here to shame you into making Dunuguan when all you really want is Bicol Express. And if you do attempt that dish and fail spectacularly, we're not going to tsk-tsk you—because we've had plenty of OH, S#!T moments, too. That's not to say we're not serious about food. If you've come here to finally tackle an exasperatingly intense sourdough recipe, we can help explain the technique, step by step. We celebrate anyone who really loves to eat as much as those who actually get in the kitchen to cook. So wherever you fall on that spectrum, you'll find your people here. That's why we want you to get to know us, too—the team behind Kaycee’s Filipino Cookbook. Scroll through to meet the people who work hard to bring you the recipes you see every month. We want you to love reading on and cooking from Kaycee’s Filipino Cookbook as much as we love creating this space for you, so holler if you've got something you want us to know. We're all ears. (Did you know you can request recipes as well as comment on all our recipes, too?)
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 672, height: 356)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "RobotoCondensed-Regular", size: 18)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 21 pt
+
+
+view.textAlignment = .center
+
+view.text = "Hi! We're Team Kaycee’s Filipino Cookbook. Kick back, stay a while, won't you? When you visit our corner of the internet, we want you to feel comfortable. Like did we just become best friends?! kind of comfortable. We're not here to shame you into making Dunuguan when all you really want is Bicol Express. And if you do attempt that dish and fail spectacularly, we're not going to tsk-tsk you—because we've had plenty of OH, S#!T moments, too. 
+\n
+\nThat's not to say we're not serious about food. If you've come here to finally tackle an exasperatingly intense sourdough recipe, we can help explain the technique, step by step. We celebrate anyone who really loves to eat as much as those who actually get in the kitchen to cook. So wherever you fall on that spectrum, you'll find your people here.
+\n
+\nThat's why we want you to get to know us, too—the team behind Kaycee’s Filipino Cookbook. Scroll through to meet the people who work hard to bring you the recipes you see every month. We want you to love reading on and cooking from Kaycee’s Filipino Cookbook as much as we love creating this space for you, so holler if you've got something you want us to know. We're all ears. (Did you know you can request recipes as well as comment on all our recipes, too?)\n"
+
+
+
+
+// Hi! Meet Team Kaycee’s Filipino Cookbook
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 347, height: 22)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Righteous-Regular", size: 18)
+
+
+// Line height: 22 pt
+
+
+view.textAlignment = .center
+
+view.text = "Hi! Meet Team Kaycee’s Filipino Cookbook"
+
+
+
+
+// 8D0909 (1) 2
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 244, height: 238)
+
+view.backgroundColor = .white
+
+
+view.layer.compositingFilter = "multiplyBlendMode"
+
+let image0 = UIImage(named: "8D0909 (1).png")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1, b: 0, c: 0, d: 1.03, tx: 0, ty: -0.01))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+view.layer.cornerRadius = 122
+
+
+
+
+// 8D0909 (1) 3
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 173, height: 180)
+
+view.backgroundColor = .white
+
+
+view.layer.compositingFilter = "multiplyBlendMode"
+
+let image0 = UIImage(named: "8D0909 (1).png")?.cgImage
+
+let layer0 = CALayer()
+
+layer0.contents = image0
+
+layer0.transform = CATransform3DMakeAffineTransform(CGAffineTransform(a: 1.04, b: 0, c: 0, d: 1, tx: -0.02, ty: 0))
+
+layer0.bounds = view.bounds
+
+layer0.position = view.center
+
+view.layer.addSublayer(layer0)
+
+
+view.layer.cornerRadius = 152
+
+
+
+
+// Line 1
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 160, height: 0)
+
+view.backgroundColor = .white
+
+
+var stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.layer.borderWidth = 2
+
+stroke.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+
+
+
+
+// INGREDIENTS: 
+
+  2 pounds beef shanks 2 bunches pechay, cleaned and discard stem ends 2 potatoes, peeled and cut into chunks 1 medium onion, peeled and sliced 8 pieces mini corn on the cob 2-3 tablespoons fish sauce 1 teaspoon black peppercorns 2 beef bouillon cubes 6-7 cups of water INSTRUCTIONS:   1. In a large pot, place the beef shanks and cover with water. 2. Add the onion and peppercorn and bring to a boil. 3. Remove scum as it rises. Then lower the heat and simmer for 2 hours or until the beef is fork tender. 4. Add the potatoes, corn, fish sauce and bouillon cubes. Simmer for 5-7 minutes or until potatoes are done. 5. Add the pechay in the final 1 minute of cooking. Cover the pot and turn off heat. 6. Enjoy!
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 275, height: 539)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "RobotoCondensed-Regular", size: 14)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 16 pt
+
+
+view.textAlignment = .center
+
+view.text = "INGREDIENTS:
+ \n2 pounds beef shanks
+\n2 bunches pechay, cleaned and discard stem ends
+\n2 potatoes, peeled and cut into chunks
+\n1 medium onion, peeled and sliced
+\n8 pieces mini corn on the cob
+\n2-3 tablespoons fish sauce
+\n1 teaspoon black peppercorns
+\n2 beef bouillon cubes
+\n6-7 cups of water
+\n
+\nINSTRUCTIONS:
+ \n1. In a large pot, place the beef shanks and cover with water.
+\n
+\n2. Add the onion and peppercorn and bring to a boil.
+\n
+\n3. Remove scum as it rises. Then lower the heat and simmer for 2 hours or until the beef is fork tender.
+\n
+\n4. Add the potatoes, corn, fish sauce and bouillon cubes. Simmer for 5-7 minutes or until potatoes are done.
+\n
+\n5. Add the pechay in the final 1 minute of cooking. Cover the pot and turn off heat.
+\n
+\n6. Enjoy!"
+
+
+
+
+// INGREDIENTS: 1kg beef sirloin, thinly sliced 100 ml cooking oil 2 pcs white onions, sliced in rings 2-5 pcs small Calamansi, (squeeze the juice) 1 cup soy sauce 1 teaspoon sugar Salt and pepper INSTRUCTIONS: 1. Marinate beef sirloin in calamansi juice, soy sauce and pepper for 30 minutes or more. The longer the better it tastes! Set aside or place it in fridge. 2. After marinating, reserve marinade and separate beef into another bowl. Set aside. Heat pan using medium heat and pour cooking oil. Fry beef sirloin until it turns slightly brownish in color. Remove extra oil, so it won’t be oily. 3. Pour marinade sauce and simmer for a few more minutes until beef becomes tender. 4. Add onion slices and a little bit of salt and a teaspoon of sugar to add taste and turn off heat. Garnish with spring onions. 5. Serve and enjoy!
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 275, height: 539)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "RobotoCondensed-Regular", size: 14)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 16 pt
+
+
+view.textAlignment = .center
+
+view.text = "INGREDIENTS:
+\n1kg beef sirloin, thinly sliced
+\n100 ml cooking oil
+\n2 pcs white onions, sliced in rings
+\n2-5 pcs small Calamansi, (squeeze the juice)
+\n1 cup soy sauce
+\n1 teaspoon sugar
+\nSalt and pepper
+\n
+\nINSTRUCTIONS:
+\n
+\n1. Marinate beef sirloin in calamansi juice, soy sauce and pepper for 30 minutes or more. The longer the better it tastes! Set aside or place it in fridge.
+\n\n2. After marinating, reserve marinade and separate beef into another bowl. Set aside. Heat pan using medium heat and pour cooking oil. Fry beef sirloin until it turns slightly brownish in color. Remove extra oil, so it won’t be oily.
+\n
+\n3. Pour marinade sauce and simmer for a few more minutes until beef becomes tender.
+\n
+\n4. Add onion slices and a little bit of salt and a teaspoon of sugar to add taste and turn off heat. Garnish with spring onions.  \n\n5. Serve and enjoy!"
+
+
+
+
+// Ingredients: 1 ½ kg pork head (ear, face, tongue and cheek) ¼ cup liver, broiled and cubed 1 Tbsp minced garlic 1 pc chopped onion 2 pcs bay leaves ½ cup vinegar ½ tbsp freshly ground black pepper 1 cup beef or pork stock 2 pcs calamansi 3 pcs siling labuyo, chopped finely Salt or fish sauce to taste Instructions: 1. Grill the pork (ear, tongue, cheeks and face), while removing remaining facial hair 2. Boil the pork’s head after grilling until it is tender 3. Debone and chop finely Sauté garlic, onion 4. Add chopped pork and liver Season with vinegar, salt and pepper 5. Pour stock and bay leaves Let it boil, then let it simmer until sauce thickens Season to taste. 6. Serve and enjoy!
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 275, height: 525)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "RobotoCondensed-Regular", size: 14)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 16 pt
+
+
+view.textAlignment = .center
+
+view.text = "Ingredients:
+\n
+\n1 ½ kg pork head (ear, face, tongue and cheek)
+\n¼ cup liver, broiled and cubed
+\n1 Tbsp minced garlic
+\n1 pc chopped onion
+\n2 pcs bay leaves
+\n½ cup vinegar
+\n½ tbsp freshly ground black pepper
+\n1 cup beef or pork stock
+\n2 pcs calamansi
+\n3 pcs siling labuyo, chopped finely
+\nSalt or fish sauce to taste
+\nInstructions:
+\n
+\n1. Grill the pork (ear, tongue, cheeks and face), while removing remaining facial hair
+\n\n2. Boil the pork’s head after grilling until it is tender
+\n\n3. Debone and chop finely
+\nSauté garlic, onion
+\n\n4. Add chopped pork and liver
+\nSeason with vinegar, salt and pepper
+\n\n5. Pour stock and bay leaves
+\nLet it boil, then let it simmer until sauce thickens
+\nSeason to taste.
+\n
+\n6. Serve and enjoy!"
+
+
+
+
+// Rectangle 10
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 487, height: 566)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 1, green: 0.271, blue: 0.271, alpha: 1).cgColor
+
+
+
+
+// Rectangle 11
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 413, height: 54)
+
+view.backgroundColor = .white
+
+
+view.alpha = 0.5
+
+view.layer.backgroundColor = UIColor(red: 0.976, green: 0.514, blue: 0.514, alpha: 1).cgColor
+
+
+
+
+// Rectangle 12
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 413, height: 54)
+
+view.backgroundColor = .white
+
+
+view.alpha = 0.5
+
+view.layer.backgroundColor = UIColor(red: 0.976, green: 0.514, blue: 0.514, alpha: 1).cgColor
+
+
+
+
+// Rectangle 13
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 413, height: 273)
+
+view.backgroundColor = .white
+
+
+view.alpha = 0.5
+
+view.layer.backgroundColor = UIColor(red: 0.976, green: 0.514, blue: 0.514, alpha: 1).cgColor
+
+
+
+
+// Rectangle 14
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 161, height: 58)
+
+view.backgroundColor = .white
+
+
+view.alpha = 0.5
+
+view.layer.backgroundColor = UIColor(red: 0.976, green: 0.514, blue: 0.514, alpha: 1).cgColor
+
+view.layer.cornerRadius = 194
+
+
+
+
+// Submit
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 73, height: 29)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 18)
+
+
+// Line height: 26 pt
+
+
+view.text = "Submit"
+
+
+
+
+// Message or Request Recipes:
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 284, height: 29)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 18)
+
+
+// Line height: 26 pt
+
+
+view.text = "Message or Request Recipes:"
+
+
+
+
+// Email Address:
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 156, height: 29)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 18)
+
+
+// Line height: 26 pt
+
+
+view.text = "Email Address:"
+
+
+
+
+// Name:
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 66, height: 29)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 18)
+
+
+// Line height: 26 pt
+
+
+view.text = "Name:"
+
+
+
+
+// Facebook
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 187, height: 49)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.554, green: 0.035, blue: 0.035, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 36)
+
+
+// Line height: 52 pt
+
+
+view.text = "Facebook"
+
+
+
+
+// Kaycee’s Filipino Cookbook PH
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 324, height: 38)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "RobotoCondensed-Regular", size: 18)
+
+
+// Line height: 21 pt
+
+
+view.text = "Kaycee’s Filipino Cookbook PH"
+
+
+
+
+// Email
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 187, height: 49)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.554, green: 0.035, blue: 0.035, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 36)
+
+
+// Line height: 52 pt
+
+
+view.text = "Email"
+
+
+
+
+// kaycee.fcb@gmail.com
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 181, height: 28)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "RobotoCondensed-Regular", size: 18)
+
+
+// Line height: 21 pt
+
+
+view.text = "kaycee.fcb@gmail.com"
+
+
+
+
+// Contact Us
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 213, height: 49)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.554, green: 0.035, blue: 0.035, alpha: 1)
+
+view.font = UIFont(name: "Shrikhand-Regular", size: 36)
+
+
+// Line height: 52 pt
+
+
+view.text = "Contact Us"
+
+
+
+
+// Rectangle 15
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 55, height: 56)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+
+
+
+
+// Rectangle 16
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 55, height: 56)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.554, green: 0.035, blue: 0.035, alpha: 1).cgColor
+
+
+
+
+// Rectangle 17
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 55, height: 56)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 1, green: 0.271, blue: 0.271, alpha: 1).cgColor
+
+
+
+
+// Rectangle 18
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 55, height: 56)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.976, green: 0.514, blue: 0.514, alpha: 1).cgColor
+
+
+
+
+// Rectangle 19
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 2889, height: 2169)
+
+view.backgroundColor = .white
+
+
+view.alpha = 0.2
+
+view.layer.compositingFilter = "multiplyBlendMode"
+
+view.layer.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 0.3).cgColor
+
+
+
+
+// Roboto Roboto Condensed Shrikhand Righteous
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 118, height: 70)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Regular", size: 14)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 16 pt
+
+
+view.text = "Roboto\nRoboto Condensed\nShrikhand\nRighteous\n\n\n"
+

@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+.top {
+    display: flex ;
+    height: 250px;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+#lol, #test99, #G2 {
+    font-family: Shrikhand;
+}
+
+#G1, #test77, #G3 {
+    font-family: Righteous;
+}
+
+.about-info, .container {
+    font-family: roboto Condensed;
+}
+
+#test54 {
+    margin-top: 10px;
+    text-align: right;
+}
+
+#test76, #test79, #test78 {
+    font-family: righteous;
+}
+
+.title, #test9 {
+    font-family: roboto Condensed
+}
+
+
+.title, .nav {    
+    display: flex ;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-size: 45px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-stretch: expanded;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 350px;
+    justify-content: space-between;
+    font-family: roboto;
+}
+
+.nav a {
+    text-decoration: none;
+    color:black;
+}
+
+.pic-upper {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pic-lower {
+    padding-top: 5px;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pic-lower img {
+    padding: 0px 2.5px;
+}
+
+#G1, #G2 {
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.container {
+    height: 1450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 1000px;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+}
+
+.card {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.info {
+    width: 200px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact {
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact img {
+    border-radius: 50%;
+    margin-left: 170px;
+    height: 30%;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+.contact-info {
+    margin-left: 80px;
+}
+
+.contact-info, .contact-form {
+    height: 800px;
+    width: 500px;
+}
+
+#fname, #message {
+    font-family: shrikhand;
+}
+
+.container-form {
+    padding-top: 100px;
+    height: 500px;
+    width: 500px;
+    padding: 0px 20px;
+    padding-top: 0.2px;
+    background-color: #ff6969;
+    margin-top: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:pink;
+    color: #bd1a1a;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    border: #f55151 2px solid;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(238, 67, 76);
+}
+
+.loli {
+    text-align: center;
+    height: 1000px;
+}
+
+.loli h2 {
+    font-size: 40px;
+}
+
+.loli img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.about-info {
+    width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#fi {
+    margin-top: 15px;
+}
+
+#lo {
+    margin-top: 15px;
+}
+
+#uu, #ii, #pp {
+    margin-top: 10px;
+}
+
+#mixes {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#set1 {
+    margin-bottom: 10px;
+}
+
+#fog1 {
+    margin-bottom: 10px;
+}
+
+#ll1, #ll2, #ll3, #ll4, #ll5, #ll6 {
+    margin-bottom: 10px;
+}
+
+.same-color {
+    color: #da1010af;
+}
